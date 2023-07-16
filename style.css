@@ -1,0 +1,53 @@
+body{
+    background: #424242;
+}
+.header{
+    position: fixed;
+    top: 0%;
+    left: -15%;
+    background-image: linear-gradient(to right, cyan, rgb(255, 105, 255));
+    transition-delay: 0.5;
+    transition-duration: 0.5;
+    z-index: 9999;
+    padding: 20px;
+    width: 120%;
+    height: 3%;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-image: linear-gradient(to right, black, rgb(53, 53, 53)) 1;
+}
+#article0{
+    background-image: linear-gradient(to right, cyan, rgb(255, 105, 255));
+    height: 275px;
+    width: 300px;
+    border: 3px solid black;
+    position: absolute; top: 160px; left: 40%;
+}
+#article0 h1{
+    font-size: 20px;
+}
+#article1{
+    background-image: linear-gradient(to right, cyan, rgb(255, 105, 255));
+    height: 120%;
+    width: 50%;
+    border: 3px solid black;
+    position: absolute; top: 560px; left: 25%;
+}
+#article1 #idk0{
+    font-size: 60px;
+    position: absolute; left: 275px;
+}
+#article1 ol{
+    position: absolute; top: 120px;
+}
+#article1 li{
+    font-size: 25px;
+    margin: 30px;
+}
+#logo{
+    position: absolute; top: -25px; left: 49%;
+}
+#IL{
+    position: absolute; left: 45%; top: 220%;
+}
